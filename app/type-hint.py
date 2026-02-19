@@ -8,6 +8,7 @@
 
 text: str = "Hello World"
 number: int = 10
+numberWhichCanBeFloat: int | float = 10
 pi: float = 3.14
 is_active: bool = True
 
