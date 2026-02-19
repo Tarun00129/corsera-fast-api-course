@@ -5,6 +5,7 @@
 # but it is recommended to use type-hint in python
 
 # example of type-hint
+from typing import Any
 
 text: str = "Hello World"
 number: int = 10
@@ -36,6 +37,15 @@ print(type(person))
 
 my_set: set[int] = {1, 2, 3, 4, 5}
 print(type(my_set))
+
+userLocation: dict[str, Any] = {
+    "name": "John",
+    "age": 30,
+    "is_active": True,
+    "coordinates": (1, 2),
+    "my_set": {1, 2, 3, 4, 5},
+}
+print(f"The type of userLocation is: {type(userLocation)}")
 
 
 # function
