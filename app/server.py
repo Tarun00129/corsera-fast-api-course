@@ -32,4 +32,6 @@ while request != "exit":
         print(response)
         print("-" * 10)
     else:
+        print("*" * 10)
         print("Request Not Found 404")
+        print("*" * 10)
